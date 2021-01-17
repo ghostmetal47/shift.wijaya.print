@@ -1,0 +1,7 @@
+.noise{
+    mix-blend-mode:difference;
+    background-image:url(http://fariskassim.com/stage/codepenstuff/noise.png);
+    opacity:.5;
+    height:100vh;
+    width:100%;
+}
