@@ -22,8 +22,8 @@
       transition-duration: 150ms;
       transition-timing-function: ease-out;
       /* animation: cursorAnim .5s infinite alternate; */
-      margin-left: -10px;
-      margin-top: -10px;
+      margin-left: -5px;
+      margin-top: -5px;
       pointer-events: none;
       background:#ff6a0d;
   }
@@ -31,8 +31,10 @@
   .link-hover {
       background: none;
       width: 60px;
-      height: 25px;
+      height: 26px;
       border: 2px solid #ff6a0d;
+      margin-left: -30px;
+      margin-top: -13px;
   }
 
   @keyframes cursorAnim {
@@ -88,11 +90,18 @@
     font-weight: 400;
     cursor: none;
     padding: 1rem;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
   }
   
   .navbar ul li a:hover {
     color: #F4813C;
+    filter: grayscale();
+    font-weight: bolder;
+    font-size: 1.5rem;;
     mix-blend-mode: overlay;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
   }
   
   section {
